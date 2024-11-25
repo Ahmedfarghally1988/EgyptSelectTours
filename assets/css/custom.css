@@ -1,0 +1,218 @@
+
+.space-extra3 {
+    position: relative;
+    margin: -35px 0;
+    z-index: 8;
+}
+
+.bg-size-50{
+    background-size: 100% 75%;
+}
+.listing-price-info {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    display: inline-block;
+    border-radius: 50px;
+    font-size: 14px;
+}
+.listing-price-info span {
+    display: inline-block;
+    background: #ffffff;
+    padding: 4px 18px;
+    border-radius: 50px;
+    font-size: 14px;
+    margin-right: 15px;
+    color: #505667;
+    box-shadow: 0px 0px 0px 5px rgba(255,255,255,0.2);
+}
+.divider.home-style1 {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    overflow: hidden;
+    padding: 30px 0;
+    position: relative;
+}
+.divider:before {
+    background-color: rgba(29, 41, 62, 0.5);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.business_exposer .title {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: normal;
+}
+
+
+.block_whatsapp {
+    position: fixed;
+    z-index: 99999999;
+    background: #0da94b;
+    width: 50px;
+    height: 50px;
+    left: 15px;
+    bottom: 15px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50px;
+}
+.block_whatsapp a {
+    color: #fff;
+    font-size: 22px;
+}
+
+.block_whatsapp.btn-chat{
+    bottom: 75px;
+    background: var(--theme-color);
+}
+
+.gallery-vdeio{
+    border-radius: 24px;
+    overflow: hidden;
+    border: 8px solid var(--theme-color);
+    background: #000;
+}
+
+.breadcumb-wrapper:before{
+    background-color: rgb(0 0 0 / 31%);
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.text.show-more-height{
+    height: 75px;
+    overflow: hidden;
+}
+.text.show-more-height .text-show p{
+    margin: 10px 0 0 0;
+    line-height: 24px;
+}
+
+.show-more{
+    margin: 20px 0 0 0;
+    color: #008bb7;
+    cursor: pointer;
+}
+
+
+.img-certificates a{
+    display: flex;
+    border: 1px solid #fff;
+    margin: 0 0 20px 0;
+    border-radius: 10px;
+    padding: 10px;
+    align-items: center;
+    background: #fff;
+}
+.img-certificates a img{
+    width: 75%;
+    margin: auto;
+}
+
+.breadcrumb-tour{
+    box-shadow: 0 0 10px #ddd;
+    margin: 6px 0 0;
+}
+
+.price_main_tour{
+
+}
+.price_main_tour label{
+    font-weight: bold;
+    font-size: 19px;
+}
+.price_main_tour label small{
+    font-size: 14px;
+    color: #959590;
+    font-weight: normal;
+}
+
+.slider-area .tour-slider-img{
+    overflow: hidden;
+    height: 400px;
+    margin: 0 0 0 0;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+.tour-thumb-slider .tour-slider-img{
+    height: 75px;
+    margin: 0;
+    overflow: hidden;
+}
+
+.tour-slider-img img{
+    width: 100%;
+    min-height: 100%;
+}
+.checklist.checklist-exclusion li:before {
+    content: "\f057";
+    font-size: 24px;
+}
+
+.block--itinerary{
+    padding: 24px;
+    border: 1px solid #e1e4e6;
+    border-radius: 8px;
+    display: block;
+    margin: 15px 0 0 0;
+}
+
+.block--itinerary .accordion-card.style2{
+    border-color: #ddd;
+    background: #eee;
+    margin: 0 0 5px 0;
+}
+.block--itinerary .accordion-card .accordion-button{
+    font-size: 17px;
+    padding: 15px;
+    min-height: auto;
+}
+.block--itinerary .accordion-card .accordion-body{
+    background: #fff;
+    padding: 25px 20px;
+}
+
+.block_prices{
+    padding: 24px;
+    border-radius: 8px;
+    display: block;
+    margin: 15px 0 0 0;
+    background: var(--theme-color);
+}
+.block_prices table{
+    margin: 0;
+}
+.block_prices table th{
+
+}
+.block_prices table td ,
+.block_prices table th{
+    padding: 15px;
+    color: #fff;
+    font-size: 19px;
+}
+
+.TermsConditions{
+    box-shadow: 0 0 10px #ddd;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.TermsConditions h4{
+    font-size: 16px;
+    margin: 0 0 5px 0;
+}
