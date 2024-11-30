@@ -187,23 +187,27 @@
 }
 
 .block_prices{
-    padding: 24px;
-    border-radius: 8px;
+
     display: block;
-    margin: 15px 0 0 0;
-    background: var(--theme-color);
+    margin: 30px 0 0 0;
+
 }
 .block_prices table{
     margin: 0;
+    border-radius: 10px;
+    overflow: hidden;
 }
 .block_prices table th{
-
+    color: #fff;
+    background: linear-gradient(90deg, rgb(97, 149, 197) 0%, rgb(59, 112, 165) 50%, rgb(29, 74, 117) 100%);
+    border-radius: 13px;
 }
 .block_prices table td ,
 .block_prices table th{
     padding: 15px;
-    color: #fff;
     font-size: 19px;
+    margin: 4px;
+    border-width: 5px;
 }
 
 .TermsConditions{
